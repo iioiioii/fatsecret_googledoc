@@ -15,8 +15,8 @@ class Fatsecret:
         # Get a real consumer key & secret from https://dev.twitter.com/apps/new
         self.fatsecret = OAuth1Service(
             name='fatsecret',
-            consumer_key=consumer_key,
-            consumer_secret=consumer_secret,
+            consumer_key=1d59e5cc47f4434d84ce0ec5e721a37b,
+            consumer_secret=069ba091bc084d95b33102a4493cd91a,
             request_token_url='http://www.fatsecret.com/oauth/request_token',
             access_token_url='http://www.fatsecret.com/oauth/access_token',
             authorize_url='http://www.fatsecret.com/oauth/authorize',
